@@ -1,0 +1,289 @@
+
+{% extends "course/basic.html" %}
+
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+
+{% block body %}
+
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item" style="background-image: url('{% static "assets/images/banner-item-1.png" %}')">
+              <div class="header-text">
+                <span class="category">Our Courses</span>
+                <h2>With Scholar Teachers, Everything Is Easier</h2>
+                <p>Scholar is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Request Demo</a>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#"><i class="fa fa-play"></i> What's Scholar?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item" style="background-image: url('{% static "assets/images/banner-item-02.jpg" %}')">
+              <div class="header-text">
+                <span class="category">Best Result</span>
+                <h2>Get the best result out of your effort</h2>
+                <p>You are allowed to use this template for any educational or commercial purpose. You are not allowed to re-distribute the template ZIP file on any other website.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Request Demo</a>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#"><i class="fa fa-play"></i> What's the best result?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item" style="background-image: url('{% static "assets/images/banner-item-03.jpg" %}')">
+              <div class="header-text">
+                <span class="category">Online Learning</span>
+                <h2>Online Learning helps you save the time</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporious incididunt ut labore et dolore magna aliqua suspendisse.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Request Demo</a>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#"><i class="fa fa-play"></i> What's Online Course?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Batches Info Start -->
+  {% include "course/includes/batches-cards.html" %}
+  <!-- Batches Info End -->
+
+  <!-- About Start -->
+  <div class="section about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+
+          {% include "course/includes/faq.html" %}
+
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            {% comment %} <h6>About Us</h6> {% endcomment %}
+            <h2>CA AJAY VERMA CLASSES</h2>
+            <p style="white-space: pre-line;">
+              We proudly introduce ourselves as CA AJAY VERMA CLASSES (AVC), one of the oldest and most prestigious institutes for CA, CS, and CMA coaching in India. Established in 1987 by CA Ajay Kumar Verma, a commerce graduate from Delhi University and a Chartered Accountant by profession, the institute began as the Institute of Commerce (IOC) and later evolved into AVC. With a legacy spanning decades, AVC has consistently produced top rank holders and boasts the highest pass percentages, attracting students from across the country.
+
+              At AVC, we are committed to delivering quality education through experienced and dedicated faculty, employing a scientific and professional teaching methodology. Our mission is to shape competent professionals who contribute to the nation's growth. Emphasizing concept clarity, every lecture is meticulously planned and documented to ensure comprehensive and timely coverage. Guided by the belief that success is achievable for every student, we focus on unlocking potential through sustained hard work and expert mentorship. As we say, “Successful people are not born; they are made.” Join CA AJAY VERMA CLASSES to embark on your journey to excellence and transform your aspirations into achievements.
+            </p>
+            <div class="main-button m-3">
+              <a href="/about-us">Discover More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+
+  <!-- Batches Info Start -->
+  {% include "course/includes/our-videos.html" %}
+  <!-- Batches Info End -->
+
+
+  <!-- Statistics Start -->
+  {% include "course/includes/statistics.html" %}
+  <!-- Statistics End -->
+
+  <div class="team section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="{% static "assets/images/member-01.jpg" %}" alt="">
+              <span class="category">UX Teacher</span>
+              <h4>Sophia Rose</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="{% static "assets/images/member-02.jpg" %}" alt="">
+              <span class="category">Graphic Teacher</span>
+              <h4>Cindy Walker</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="{% static "assets/images/member-03.jpg" %}" alt="">
+              <span class="category">Full Stack Master</span>
+              <h4>David Hutson</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="{% static "assets/images/member-04.jpg" %}" alt="">
+              <span class="category">Digital Animator</span>
+              <h4>Stella Blair</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Testimonials Start -->
+  {% include "course/includes/testimonials.html" %}
+  <!-- Testimonials End -->
+
+  <div class="section events" id="events">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Schedule</h6>
+            <h2>Upcoming Events</h2>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="{% static "assets/images/event-01.jpg" %}" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Web Design</span>
+                    <h4>UI Best Practices</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>16 Feb 2036</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>22 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>$120</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="{% static "assets/images/event-02.jpg" %}" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Front End</span>
+                    <h4>New Design Trend</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>24 Feb 2036</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>30 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>$320</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="{% static "assets/images/event-03.jpg" %}" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Full Stack</span>
+                    <h4>Web Programming</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>12 Mar 2036</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>48 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>$440</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+{% endblock body %}
