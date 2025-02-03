@@ -7,4 +7,7 @@ urlpatterns = [
     path("about-us", views.about, name="about"),
     path("gallery", views.gallery, name="gallery"),
     path("contact-us", views.contact, name="contact"),
+    path("blog", views.blog, name="blog"),
+    path("blogs", views.all_blogs, name="all_blogs"),
+    path("batch/<str:batch_name>", views.batch_time_table, name="batch_time_table"),
 ]

@@ -731,24 +731,13 @@ Banner Style
 --------------------------------------------- 
 */
 
+/* DO NOT REMOVE THIS; This is purple banner */
 .main-banner {
     background-image: url(../images/banner-bg.jpg);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 170px 0px 120px 0px;
-}
-
-.main-banner .item-1 {
-    background-image: url(../images/banner-item-1.png);
-}
-
-.main-banner .item-2 {
-    background-image: url(../images/banner-item-02.jpg);
-}
-
-.main-banner .item-3 {
-    background-image: url(../images/banner-item-03.jpg);
 }
 
 .main-banner .item {
@@ -1695,7 +1684,7 @@ Footer Style
 */
 
 footer {
-    margin-top: 150px;
+    margin-top: 50px;
     position: relative;
     background-color: #7a6ad8;
     vertical-align: middle;
