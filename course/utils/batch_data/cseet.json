@@ -1,0 +1,56 @@
+{
+    "CSEET BATCH- I Morning Batch": [
+        [
+            "Business Communication",
+            "CS Manpreet Singh",
+            "19th July 2024",
+            "09:00AM-11:00AM T/T/S",
+            ""
+        ],
+        [
+            "Logical Reasoning",
+            "Mr. Tarun Verma",
+            "20th July 2024",
+            "12:00PM-01:00PM M/W/F",
+            ""
+        ],
+        [
+            "Economic & BE",
+            "CS Manpreet Singh",
+            "20th July 2024",
+            "09:30AM-11:00AM M/W/F",
+            ""
+        ],
+        [
+            "Legal Aptitude & Current Affairs",
+            "CS Manpreet Singh",
+            "19th July 2024",
+            "09:30AM-11:30AM T/T/S",
+            ""
+        ],
+        ["", "", "", "MODULE FEES", "16000/-"],
+        ["", "", "", "CONCESSION", "1000/-"],
+        ["", "", "", "NET FEES", "15000/-"]
+    ],
+    "CSEET BATCH- II After Noon": [
+        [
+            "Legal Aptitude & Current Affairs",
+            "CS. Manpreet Singh",
+            "19th July 2024",
+            "",
+            ""
+        ],
+        ["Logical Reasoning", "CS. Manpreet Singh", "19th July 2024", "", ""],
+        ["Economic & BE", "CS Manpreet Singh", "19th July 2024", "", ""],
+        [
+            "Securities Laws & Capital Markets",
+            "CMA JS Malhotra",
+            "2st Nov.2024",
+            "01:0PM - 02:30PM T/T/S",
+            "9,000/-"
+        ],
+        ["", "", "", "MODULE FEES", "40,000/-"],
+        ["", "", "", "CONCESSION", "5,000/-"],
+        ["", "", "", "NET FEES:", "35,000/-"]
+    ]
+}
