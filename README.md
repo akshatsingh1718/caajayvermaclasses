@@ -33,3 +33,10 @@ yot -35+
 -   Footer: Added connect, Opening hours, Imp links
 -   Added sticky whatsapp button
 -   Batches time table page added. (batch-time-table.html)
+
+## 01-03-2025
+
+-   Added blog page
+-   Added social media links
+-   Menu dropdown bug fix
+-   Fixed about us text overflowing on right from purple bg.

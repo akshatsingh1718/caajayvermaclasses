@@ -16,6 +16,15 @@ ALLOWED_COURSES = [
     "cs-executive.json",
 ]
 
+BLOGS = {
+    "top-3-courses-after-12th-commerce": {
+        "title": "Top 3 Courses After 12th Commerce",
+        "author": "Mr. Ajay Verma",
+        "image_url": "assets/images/landing-banner-1.png",
+        "url": "top-3-courses-after-12th-commerce",
+    }
+}
+
 
 def index(request):
     return render(request, f"{APP}/index.html")
@@ -33,12 +42,15 @@ def contact(request):
     return render(request, f"{APP}/contact-us.html")
 
 
-def blog(request):
-    return render(request, f"{APP}/blog.html")
+def blog(request, blog_name: str):
+    if blog_name not in BLOGS:
+        return redirect("/")
+
+    return render(request, f"{APP}/blogs/{blog_name}.html")
 
 
 def all_blogs(request):
-    return render(request, f"{APP}/all-blogs.html")
+    return render(request, f"{APP}/all-blogs.html", {"blogs": BLOGS})
 
 
 def batch_time_table(request, batch_name: str):
