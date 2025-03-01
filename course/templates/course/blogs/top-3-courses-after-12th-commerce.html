@@ -1,89 +1,72 @@
-
-
-{% extends "course/basic.html" %}
-
-{% load static %}
-
-{% block title %}About Us{% endblock title %}
-
-{% block css %}
+{% extends "course/basic.html" %} {% load static %} {% block title %}About Us{%
+endblock title %} {% block css %}
 
 <style>
-  .hero-section {
-      background-color: #f8f9fa;
-      padding: 60px 0;
-      margin-bottom: 30px;
-  }
-  .course-card {
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      height: 100%;
-      transition: transform 0.3s;
-  }
-  .course-card:hover {
-      transform: translateY(-5px);
-  }
-  .card-header {
-      font-weight: bold;
-      font-size: 1.2rem;
-  }
-  .badge-custom {
-      font-size: 0.8rem;
-      padding: 5px 10px;
-      margin-right: 5px;
-      margin-bottom: 5px;
-  }
-  .comparison-table th {
-      background-color: #f1f8ff;
-  }
-  .step-box {
-      border-left: 3px solid #0d6efd;
-      padding-left: 15px;
-      margin-bottom: 15px;
-  }
-  .benefits-list li {
-      margin-bottom: 10px;
-  }
-  .career-path {
-      border-radius: 5px;
-      padding: 5px 10px;
-      margin-bottom: 5px;
-      background-color: #e9ecef;
-      display: inline-block;
-  }
-  .top-badge {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-  }
+    .hero-section {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+        margin-bottom: 30px;
+    }
+    .course-card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        transition: transform 0.3s;
+    }
+    .course-card:hover {
+        transform: translateY(-5px);
+    }
+    .card-header {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .badge-custom {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .comparison-table th {
+        background-color: #f1f8ff;
+    }
+    .step-box {
+        border-left: 3px solid #0d6efd;
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+    .benefits-list li {
+        margin-bottom: 10px;
+    }
+    .career-path {
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        background-color: #e9ecef;
+        display: inline-block;
+    }
+    .top-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
 </style>
-{% endblock css %}
-
-
-{% block body %}
+{% endblock css %} {% block body %}
 
 <!-- Header Start -->
-<div class="main-banner" id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 ">
-            <h1 style="color: #fff;">Blog Topic</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<div class="main-banner" style="padding: 50px 0px 120px 0px" id="top"></div>
 
-  <!-- Header End -->
+<!-- Header End -->
 
-  <header class="hero-section">
+<header class="hero-section">
     <div class="container text-center">
         <h1 class="display-4">Top 3 Courses After 12th Commerce</h1>
         <p class="lead">For a Successful and Rewarding Career</p>
         <div class="d-flex justify-content-center mt-4">
             <span class="badge bg-primary badge-custom">High Demand</span>
-            <span class="badge bg-success badge-custom">Financial Stability</span>
+            <span class="badge bg-success badge-custom"
+                >Financial Stability</span
+            >
             <span class="badge bg-info badge-custom">Career Growth</span>
         </div>
     </div>
@@ -97,20 +80,39 @@
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title">Choose Your Career Path</h2>
-                    <p>After completing 12th commerce, students often wonder which course to choose for a stable and rewarding career. The right course can open doors to high-paying jobs, entrepreneurship, and global opportunities.</p>
-                    <p>Among the numerous options available, three professional courses stand out due to their high demand, financial stability, and career growth potential:</p>
+                    <p>
+                        After completing 12th commerce, students often wonder
+                        which course to choose for a stable and rewarding
+                        career. The right course can open doors to high-paying
+                        jobs, entrepreneurship, and global opportunities.
+                    </p>
+                    <p>
+                        Among the numerous options available, three professional
+                        courses stand out due to their high demand, financial
+                        stability, and career growth potential:
+                    </p>
                     <div class="d-flex flex-wrap">
                         <div class="p-2 m-2 bg-light rounded">
-                            <i class="fas fa-check-circle text-success"></i> Chartered Accountancy (CA) – The ultimate financial expert
+                            <i class="fas fa-check-circle text-success"></i>
+                            Chartered Accountancy (CA) – The ultimate financial
+                            expert
                         </div>
                         <div class="p-2 m-2 bg-light rounded">
-                            <i class="fas fa-check-circle text-success"></i> Company Secretary (CS) – The corporate legal strategist
+                            <i class="fas fa-check-circle text-success"></i>
+                            Company Secretary (CS) – The corporate legal
+                            strategist
                         </div>
                         <div class="p-2 m-2 bg-light rounded">
-                            <i class="fas fa-check-circle text-success"></i> Cost and Management Accountant (CMA) – The finance and costing expert
+                            <i class="fas fa-check-circle text-success"></i>
+                            Cost and Management Accountant (CMA) – The finance
+                            and costing expert
                         </div>
                     </div>
-                    <p class="mt-3">If you are looking for a prestigious, high-earning, and future-proof career, these three options are among the best. Let's dive deep into each of them.</p>
+                    <p class="mt-3">
+                        If you are looking for a prestigious, high-earning, and
+                        future-proof career, these three options are among the
+                        best. Let's dive deep into each of them.
+                    </p>
                 </div>
             </div>
         </div>
@@ -120,52 +122,104 @@
     <div class="row mb-5">
         <div class="col-lg-12 mb-4">
             <h2>Detailed Course Information</h2>
-            <p>Explore each course to find which one aligns best with your interests and career goals.</p>
+            <p>
+                Explore each course to find which one aligns best with your
+                interests and career goals.
+            </p>
         </div>
 
         <!-- CA Card -->
         <div class="col-lg-4 mb-4">
             <div class="card course-card">
                 <div class="card-header bg-primary text-white">
-                  Chartered Accountancy (CA)
-                  <span class="badge bg-warning text-dark ">Most Prestigious</span>
+                    Chartered Accountancy (CA)
+                    <span class="badge bg-warning text-dark"
+                        >Most Prestigious</span
+                    >
                 </div>
                 <div class="card-body">
                     <h5>Why Choose CA?</h5>
                     <ul class="benefits-list">
-                        <li><i class="fas fa-globe text-primary"></i> <strong>Global Recognition</strong> – CA professionals are in demand worldwide.</li>
-                        <li><i class="fas fa-money-bill-wave text-primary"></i> <strong>High Earning Potential</strong> – CAs earn lucrative salaries, starting from ₹8-15 LPA in top firms.</li>
-                        <li><i class="fas fa-road text-primary"></i> <strong>Multiple Career Paths</strong> – Work in finance, tax, auditing, or start your own firm.</li>
-                        <li><i class="fas fa-building text-primary"></i> <strong>Corporate and Government Demand</strong> – Big companies, banks, and government departments hire CAs.</li>
+                        <li>
+                            <i class="fas fa-globe text-primary"></i>
+                            <strong>Global Recognition</strong> – CA
+                            professionals are in demand worldwide.
+                        </li>
+                        <li>
+                            <i class="fas fa-money-bill-wave text-primary"></i>
+                            <strong>High Earning Potential</strong> – CAs earn
+                            lucrative salaries, starting from ₹8-15 LPA in top
+                            firms.
+                        </li>
+                        <li>
+                            <i class="fas fa-road text-primary"></i>
+                            <strong>Multiple Career Paths</strong> – Work in
+                            finance, tax, auditing, or start your own firm.
+                        </li>
+                        <li>
+                            <i class="fas fa-building text-primary"></i>
+                            <strong>Corporate and Government Demand</strong> –
+                            Big companies, banks, and government departments
+                            hire CAs.
+                        </li>
                     </ul>
-                    
+
                     <h5>Course Structure (ICAI)</h5>
                     <div class="step-box">
                         <h6>1. CA Foundation (4 months)</h6>
-                        <p>Entry-level exam after 12th Commerce with subjects like Accounting, Business Laws, Mathematics, and Economics.</p>
+                        <p>
+                            Entry-level exam after 12th Commerce with subjects
+                            like Accounting, Business Laws, Mathematics, and
+                            Economics.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>2. CA Intermediate (8 months)</h6>
-                        <p>Advanced subjects in two groups covering Accounting, Corporate Laws, Taxation, Auditing, and Financial Management.</p>
+                        <p>
+                            Advanced subjects in two groups covering Accounting,
+                            Corporate Laws, Taxation, Auditing, and Financial
+                            Management.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>3. Articleship (3 years)</h6>
-                        <p>Practical training under a practicing CA gaining hands-on experience.</p>
+                        <p>
+                            Practical training under a practicing CA gaining
+                            hands-on experience.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>4. CA Final (6 months)</h6>
-                        <p>Final level with advanced subjects like Financial Reporting, Strategic Management, and Tax Laws.</p>
+                        <p>
+                            Final level with advanced subjects like Financial
+                            Reporting, Strategic Management, and Tax Laws.
+                        </p>
                     </div>
-                    
+
                     <h5>Career Opportunities</h5>
-                    <div class="career-path"><i class="fas fa-briefcase"></i> Chartered Accountant in Big 4 firms</div>
-                    <div class="career-path"><i class="fas fa-file-invoice-dollar"></i> Tax Consultant</div>
-                    <div class="career-path"><i class="fas fa-search-dollar"></i> Auditor</div>
-                    <div class="career-path"><i class="fas fa-user-tie"></i> Chief Financial Officer (CFO)</div>
-                    <div class="career-path"><i class="fas fa-balance-scale"></i> Forensic Accountant</div>
-                    
+                    <div class="career-path">
+                        <i class="fas fa-briefcase"></i> Chartered Accountant in
+                        Big 4 firms
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-file-invoice-dollar"></i> Tax
+                        Consultant
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-search-dollar"></i> Auditor
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-user-tie"></i> Chief Financial Officer
+                        (CFO)
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-balance-scale"></i> Forensic Accountant
+                    </div>
+
                     <div class="alert alert-info mt-3">
-                        <i class="fas fa-rupee-sign"></i> <strong>Salary Range:</strong> ₹8-25 LPA (varies based on experience)
+                        <i class="fas fa-rupee-sign"></i>
+                        <strong>Salary Range:</strong> ₹8-25 LPA (varies based
+                        on experience)
                     </div>
                 </div>
             </div>
@@ -180,39 +234,78 @@
                 <div class="card-body">
                     <h5>Why Choose CS?</h5>
                     <ul class="benefits-list">
-                        <li><i class="fas fa-chart-line text-success"></i> <strong>High Demand</strong> – Every company requires a CS to handle legal matters.</li>
-                        <li><i class="fas fa-building text-success"></i> <strong>Government and Corporate Jobs</strong> – CS professionals can work in both sectors.</li>
-                        <li><i class="fas fa-crown text-success"></i> <strong>Leadership Roles</strong> – A CS holds a key position in company management.</li>
-                        <li><i class="fas fa-business-time text-success"></i> <strong>Entrepreneurship</strong> – You can start your own consultancy.</li>
+                        <li>
+                            <i class="fas fa-chart-line text-success"></i>
+                            <strong>High Demand</strong> – Every company
+                            requires a CS to handle legal matters.
+                        </li>
+                        <li>
+                            <i class="fas fa-building text-success"></i>
+                            <strong>Government and Corporate Jobs</strong> – CS
+                            professionals can work in both sectors.
+                        </li>
+                        <li>
+                            <i class="fas fa-crown text-success"></i>
+                            <strong>Leadership Roles</strong> – A CS holds a key
+                            position in company management.
+                        </li>
+                        <li>
+                            <i class="fas fa-business-time text-success"></i>
+                            <strong>Entrepreneurship</strong> – You can start
+                            your own consultancy.
+                        </li>
                     </ul>
-                    
+
                     <h5>Course Structure (ICSI)</h5>
                     <div class="step-box">
                         <h6>1. CS Executive Entrance Test (CSEET)</h6>
-                        <p>Entry-level exam covering Business Communication, Legal Aptitude, Economics, and Current Affairs.</p>
+                        <p>
+                            Entry-level exam covering Business Communication,
+                            Legal Aptitude, Economics, and Current Affairs.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>2. CS Executive (9 months)</h6>
-                        <p>Two groups covering Company Law, Corporate Accounting, Securities Laws, and Tax Laws.</p>
+                        <p>
+                            Two groups covering Company Law, Corporate
+                            Accounting, Securities Laws, and Tax Laws.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>3. CS Professional (9 months)</h6>
-                        <p>Advanced subjects on Governance, Tax Laws, Drafting, and Secretarial Audit.</p>
+                        <p>
+                            Advanced subjects on Governance, Tax Laws, Drafting,
+                            and Secretarial Audit.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>4. 21-Month Internship</h6>
                         <p>Mandatory practical training in a company.</p>
                     </div>
-                    
+
                     <h5>Career Opportunities</h5>
-                    <div class="career-path"><i class="fas fa-briefcase"></i> Company Secretary</div>
-                    <div class="career-path"><i class="fas fa-gavel"></i> Legal Advisor</div>
-                    <div class="career-path"><i class="fas fa-balance-scale"></i> Corporate Law Consultant</div>
-                    <div class="career-path"><i class="fas fa-clipboard-check"></i> Chief Compliance Officer</div>
-                    <div class="career-path"><i class="fas fa-building"></i> Private Practice</div>
-                    
+                    <div class="career-path">
+                        <i class="fas fa-briefcase"></i> Company Secretary
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-gavel"></i> Legal Advisor
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-balance-scale"></i> Corporate Law
+                        Consultant
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-clipboard-check"></i> Chief Compliance
+                        Officer
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-building"></i> Private Practice
+                    </div>
+
                     <div class="alert alert-info mt-3">
-                        <i class="fas fa-rupee-sign"></i> <strong>Salary Range:</strong> ₹6-20 LPA (varies based on experience)
+                        <i class="fas fa-rupee-sign"></i>
+                        <strong>Salary Range:</strong> ₹6-20 LPA (varies based
+                        on experience)
                     </div>
                 </div>
             </div>
@@ -227,39 +320,80 @@
                 <div class="card-body">
                     <h5>Why Choose CMA?</h5>
                     <ul class="benefits-list">
-                        <li><i class="fas fa-money-bill-wave text-info"></i> <strong>High Earning Potential</strong> – CMA professionals earn well in India and abroad.</li>
-                        <li><i class="fas fa-globe text-info"></i> <strong>Opportunities in MNCs</strong> – CMAs play a key role in financial planning.</li>
-                        <li><i class="fas fa-certificate text-info"></i> <strong>International Recognition</strong> – Indian CMA is equivalent to US CMA in many aspects.</li>
-                        <li><i class="fas fa-random text-info"></i> <strong>Versatile Career Options</strong> – Work in finance, risk management, and cost auditing.</li>
+                        <li>
+                            <i class="fas fa-money-bill-wave text-info"></i>
+                            <strong>High Earning Potential</strong> – CMA
+                            professionals earn well in India and abroad.
+                        </li>
+                        <li>
+                            <i class="fas fa-globe text-info"></i>
+                            <strong>Opportunities in MNCs</strong> – CMAs play a
+                            key role in financial planning.
+                        </li>
+                        <li>
+                            <i class="fas fa-certificate text-info"></i>
+                            <strong>International Recognition</strong> – Indian
+                            CMA is equivalent to US CMA in many aspects.
+                        </li>
+                        <li>
+                            <i class="fas fa-random text-info"></i>
+                            <strong>Versatile Career Options</strong> – Work in
+                            finance, risk management, and cost auditing.
+                        </li>
                     </ul>
-                    
+
                     <h5>Course Structure (ICMAI)</h5>
                     <div class="step-box">
                         <h6>1. CMA Foundation</h6>
-                        <p>Entry-level exam covering Economics, Accounting, Laws, and Mathematics.</p>
+                        <p>
+                            Entry-level exam covering Economics, Accounting,
+                            Laws, and Mathematics.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>2. CMA Intermediate</h6>
-                        <p>Two groups covering Financial Accounting, Laws, Cost Accounting, and Taxation.</p>
+                        <p>
+                            Two groups covering Financial Accounting, Laws, Cost
+                            Accounting, and Taxation.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>3. CMA Final</h6>
-                        <p>Advanced subjects on Corporate Laws, Strategic Cost Management, and Tax Laws.</p>
+                        <p>
+                            Advanced subjects on Corporate Laws, Strategic Cost
+                            Management, and Tax Laws.
+                        </p>
                     </div>
                     <div class="step-box">
                         <h6>4. Practical Training – 3 Years</h6>
-                        <p>Mandatory work experience in accounting and finance.</p>
+                        <p>
+                            Mandatory work experience in accounting and finance.
+                        </p>
                     </div>
-                    
+
                     <h5>Career Opportunities</h5>
-                    <div class="career-path"><i class="fas fa-calculator"></i> Cost Accountant</div>
-                    <div class="career-path"><i class="fas fa-chart-bar"></i> Financial Analyst</div>
-                    <div class="career-path"><i class="fas fa-shield-alt"></i> Risk Manager</div>
-                    <div class="career-path"><i class="fas fa-user-tie"></i> Chief Financial Officer (CFO)</div>
-                    <div class="career-path"><i class="fas fa-comments-dollar"></i> Management Consultant</div>
-                    
+                    <div class="career-path">
+                        <i class="fas fa-calculator"></i> Cost Accountant
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-chart-bar"></i> Financial Analyst
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-shield-alt"></i> Risk Manager
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-user-tie"></i> Chief Financial Officer
+                        (CFO)
+                    </div>
+                    <div class="career-path">
+                        <i class="fas fa-comments-dollar"></i> Management
+                        Consultant
+                    </div>
+
                     <div class="alert alert-info mt-3">
-                        <i class="fas fa-rupee-sign"></i> <strong>Salary Range:</strong> ₹7-22 LPA (varies based on experience)
+                        <i class="fas fa-rupee-sign"></i>
+                        <strong>Salary Range:</strong> ₹7-22 LPA (varies based
+                        on experience)
                     </div>
                 </div>
             </div>
@@ -271,7 +405,9 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header bg-dark">
-                    <h3 class="mb-0 text-white">Course Comparison: CA vs CS vs CMA</h3>
+                    <h3 class="mb-0 text-white">
+                        Course Comparison: CA vs CS vs CMA
+                    </h3>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -335,34 +471,50 @@
                         <div class="col-md-4 mb-3">
                             <div class="card h-100">
                                 <div class="card-body text-center">
-                                    <i class="fas fa-calculator fa-3x text-primary mb-3"></i>
+                                    <i
+                                        class="fas fa-calculator fa-3x text-primary mb-3"
+                                    ></i>
                                     <h5>Choose CA if you are</h5>
-                                    <p>Strong in numbers, taxation, and auditing</p>
+                                    <p>
+                                        Strong in numbers, taxation, and
+                                        auditing
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <div class="card h-100">
                                 <div class="card-body text-center">
-                                    <i class="fas fa-balance-scale fa-3x text-success mb-3"></i>
+                                    <i
+                                        class="fas fa-balance-scale fa-3x text-success mb-3"
+                                    ></i>
                                     <h5>Choose CS if you are</h5>
-                                    <p>Interested in corporate law and governance</p>
+                                    <p>
+                                        Interested in corporate law and
+                                        governance
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <div class="card h-100">
                                 <div class="card-body text-center">
-                                    <i class="fas fa-chart-line fa-3x text-info mb-3"></i>
+                                    <i
+                                        class="fas fa-chart-line fa-3x text-info mb-3"
+                                    ></i>
                                     <h5>Choose CMA if you like</h5>
                                     <p>Finance, cost control, and strategy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="alert alert-warning mt-4">
-                        <i class="fas fa-lightbulb"></i> <strong>Pro Tip:</strong> If you are still confused, you can start with CA Foundation, CS Foundation, or CMA Foundation and decide based on your performance and interest.
+                        <i class="fas fa-lightbulb"></i>
+                        <strong>Pro Tip:</strong> If you are still confused, you
+                        can start with CA Foundation, CS Foundation, or CMA
+                        Foundation and decide based on your performance and
+                        interest.
                     </div>
                 </div>
             </div>
@@ -375,14 +527,22 @@
             <div class="card">
                 <div class="card-body text-center">
                     <h2>Conclusion</h2>
-                    <p>All three courses – CA, CS, and CMA – offer excellent career opportunities in finance, law, and management. The best course for you depends on your interests, strengths, and career goals.</p>
-                    <a href="https://api.whatsapp.com/send?phone=919810046270&text=Hi, I want to connect regarding CA Ajay Verma Classes"  target="_blank" class="btn btn-success mt-3">Start Your Career Journey Today; Contact us</a>
+                    <p>
+                        All three courses – CA, CS, and CMA – offer excellent
+                        career opportunities in finance, law, and management.
+                        The best course for you depends on your interests,
+                        strengths, and career goals.
+                    </p>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=919810046270&text=Hi, I want to connect regarding CA Ajay Verma Classes"
+                        target="_blank"
+                        class="btn btn-success mt-3"
+                        >Start Your Career Journey Today; Contact us</a
+                    >
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
 
 {% endblock body %}
